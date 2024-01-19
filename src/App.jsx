@@ -48,7 +48,8 @@ const App = () => {
     <div className="container">
       <Header />
       <div className="container-view">Some activities should be here</div>
-      <button onClick={() => archiveCall()}>Archive calls</button>
+      <button onClick={() => archiveCall()}>Archive calls</button> github
+      pushing error
       {activities &&
         activities.map((call) => (
           <div key={call.id} className="call-box-container">
